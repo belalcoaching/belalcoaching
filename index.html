@@ -2,160 +2,145 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coach Belal | Private Football Training in Prague</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Belal Coaching</title>
   <style>
     body {
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
       color: #333;
     }
     header {
-      background-color: #1f2937;
+      background: #004080;
       color: white;
-      padding: 2rem;
+      padding: 20px;
       text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    nav {
-      text-align: center;
-      background: #111827;
-      padding: 1rem 0;
     }
     nav a {
       color: white;
+      margin: 0 10px;
       text-decoration: none;
-      margin: 0 1rem;
       font-weight: bold;
     }
-    .section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
       background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px #ccc;
     }
-    .section h2 {
-      color: #1f2937;
+    h1, h2 {
+      margin-bottom: 15px;
+    }
+    #gallery {
+      margin-top: 40px;
+    }
+    .media-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .media-item {
+      flex: 1 1 calc(33% - 20px);
+      box-sizing: border-box;
+    }
+    .media-item img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .media-item p {
+      text-align: center;
+      margin-top: 8px;
+      font-style: italic;
+      color: #444;
+    }
+    @media (max-width: 768px) {
+      .media-item {
+        flex: 1 1 100%;
+      }
     }
     footer {
       text-align: center;
-      padding: 2rem;
-      background: #1f2937;
+      padding: 15px;
+      margin-top: 40px;
+      background: #004080;
       color: white;
-      margin-top: 2rem;
     }
-    .button {
-      background-color: #10b981;
-      color: white;
-      padding: 1rem 2rem;
-      text-decoration: none;
-      border-radius: 5px;
-      display: inline-block;
-      margin-top: 1rem;
-    }
-    .social-links {
-      margin-top: 1rem;
-    }
-    .social-links a {
-      color: white;
-      margin: 0 0.5rem;
+    a.contact-link {
+      color: #004080;
       text-decoration: none;
       font-weight: bold;
     }
-    .review-box {
-      border: 1px solid #ccc;
-      padding: 1rem;
-      border-radius: 5px;
-      margin-top: 1rem;
-      background-color: #f9f9f9;
-    }
-    .media-gallery img, .media-gallery video {
-      width: 100%;
-      max-width: 100%;
-      margin-bottom: 1rem;
-      border-radius: 8px;
+    a.contact-link:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Coach Belal</h1>
-    <p>Private Football Training | Prague</p>
+    <h1>Belal Coaching</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
   </header>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#sessions">Sessions</a>
-    <a href="#media">Media</a>
-    <a href="#reviews">Reviews</a>
-    <a href="#contact">Contact</a>
-  </nav>
 
-  <section id="about" class="section">
+  <section id="about">
     <h2>About Me</h2>
-    <p>Hi! I'm Coach Belal. I'm 19 years old and currently coach the U-13 team at FC Nebušice Prague. I hold a UEFA C License and am currently preparing for my UEFA B License. My goal is to help young players improve their skills, confidence, and love for the game. With years of youth coaching experience and a passion for football, I'm now offering private sessions tailored to each player's development.</p>
-    <p>I speak English, Arabic, and basic French, making it easy to connect with players from diverse backgrounds.</p>
+    <p>Hi, I'm Belal, head coach of the U-13 team at FC Nebušice Prague. I have experience playing football, currently active at Střešovice.  
+    I hold a UEFA C license and am currently preparing for my UEFA B license.  
+    I speak English, Arabic, and basic French.</p>
   </section>
 
-  <section id="sessions" class="section">
-    <h2>Private Sessions</h2>
-    <ul>
-      <li>⚽ 1-on-1 Technical Training</li>
-      <li>📈 Tactical Understanding & Game IQ</li>
-      <li>💪 Speed & Conditioning Drills</li>
-      <li>🎯 Position-Specific Coaching</li>
-    </ul>
-    <p>Sessions available for ages 8–16. Flexible times and locations in Prague.</p>
-    <a href="https://calendly.com" target="_blank" class="button">Book a Session</a>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>WhatsApp: <a class="contact-link" href="https://wa.me/420775847308" target="_blank">+420 775 847 308</a></p>
+    <p>Email: <a class="contact-link" href="mailto:belal211hesham@gmail.com">belal211hesham@gmail.com</a></p>
+    <p>Instagram: <a class="contact-link" href="https://www.instagram.com/belalcoaching" target="_blank">@belalcoaching</a></p>
+    <p>Book a session: <a class="contact-link" href="https://calendly.com/belal211hesham" target="_blank">Calendly Link</a></p>
   </section>
 
-  <section id="media" class="section">
-    <h2>Photos & Videos</h2>
+  <section id="gallery">
+    <h2>Gallery</h2>
     <div class="media-gallery">
-      <img src="your-photo-url-1.jpg" alt="Training Photo 1">
-      <img src="your-photo-url-2.jpg" alt="Training Photo 2">
-      <video controls>
-        <source src="your-video-url.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <p>Want your footage featured here? Send it to me!</p>
-  </section>
-
-  <section id="reviews" class="section">
-    <h2>Leave a Review</h2>
-    <p>If you've trained with Coach Belal, we'd love to hear your feedback!</p>
-    <form action="https://formsubmit.co/belal211hesham@gmail.com" method="POST">
-      <input type="hidden" name="_captcha" value="false">
-      <div class="review-box">
-        <label for="name">Name:</label><br />
-        <input type="text" id="name" name="name" required style="width:100%; padding:0.5rem; margin-top:0.5rem;"><br /><br />
-
-        <label for="message">Your Review:</label><br />
-        <textarea id="message" name="message" rows="4" required style="width:100%; padding:0.5rem; margin-top:0.5rem;"></textarea><br /><br />
-
-        <button type="submit" class="button">Submit Review</button>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=1ctxjTkAUIX9zQrWlFrvGSfrCPUqInLQ7" alt="Training session with kids" />
+        <p>Training session with kids</p>
       </div>
-    </form>
-  </section>
-
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:belal211hesham@gmail.com">belal211hesham@gmail.com</a></p>
-    <p>WhatsApp: +420 775 847 308</p>
-    <div class="social-links">
-      <p>Follow me on Instagram: <a href="https://instagram.com/belalcoaching" target="_blank">@belalcoaching</a></p>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=14r6Yat8RmJqgNTpCwilx2kbV7Lg4d3ZZ" alt="Football coaching in action" />
+        <p>Football coaching in action</p>
+      </div>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=1hZVDEw3ZGoS8jyr5GNWkVXxhjXHzjWhE" alt="Kids practicing drills" />
+        <p>Kids practicing drills</p>
+      </div>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=1HzjQwhXvJGBOTCIhpEdsHwkpkr1iRqG0" alt="Coach Belal giving instructions" />
+        <p>Coach Belal giving instructions</p>
+      </div>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=1kmXYJV1-PF8nae-z-jcQyhfAoKU-N0y3" alt="Youth football team photo" />
+        <p>Youth football team photo</p>
+      </div>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=1S4DL4DxL-pQGZxHaugxqCuKL9rNu63WR" alt="Football training session" />
+        <p>Football training session</p>
+      </div>
+      <div class="media-item">
+        <img src="https://drive.google.com/uc?export=download&id=1JCGNe4XDlPh21xFBRClQ__OSefULqpQE" alt="Belal coaching kids" />
+        <p>Belal coaching kids</p>
+      </div>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2025 Coach Belal. All rights reserved.</p>
+    <p>© 2025 Belal Coaching. All rights reserved.</p>
   </footer>
 </body>
 </html>
